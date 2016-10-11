@@ -1,0 +1,423 @@
+/*Are you a Scorpio?*/
+
+header {
+  font-family: "Futura-CondensedExtraBold", Futura, Arial, sans-serif;
+  font-size: 54px;
+  font-style: normal;
+  font-variant: normal;
+  letter-spacing: 6px;
+  font-stretch: condensed;
+  font-weight: bold;
+  line-height: 34px;
+  color: #666666;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 585px;
+  margin: auto;
+}
+
+body {
+  background: #EEEEEE;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  letter-spacing: 5.2px;
+  color: #666666;
+  margin-top: 30px;
+  font-weight: normal;
+  width: 375px;
+  text-align: left;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-family: "Futura-CondensedExtraBold", Futura, Arial, sans-serif;
+  font-size: 18px;
+  color: #666666;
+}
+
+h4 {
+  font-family: "Futura-CondensedExtraBold", Futura, Arial, sans-serif;
+  font-size: 16px;
+  color: #666666;
+}
+
+p {
+  color: #666666;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  display: block;
+  position: relative;
+  float: left;
+  width: 580px;
+  margin-top: 0;
+}
+
+ul {
+  color: #666666;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  display: block;
+  position: relative;
+  float: left;
+  width: 580px;
+  margin-top: 0;
+}
+
+nav {
+  position: fixed;
+  display: block;
+  left: 3%;
+  float: left;
+  width: 210px;
+}
+
+
+
+img {
+  width: 580px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+-webkit-animation:rainbow 10s infinite;
+-ms-animation:rainbow 10s infinite;
+-o-animation:rainbow 10s infinite;
+animation:rainbow 10s infinite;
+}
+
+@-webkit-keyframes rainbow {
+0% {color: #BD10E0;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
+80% {color: #F5A623;}
+100% {color: #EF1111;}
+}
+
+@-ms-keyframes rainbow {
+0% {color: #BD10E0;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
+80% {color: #F5A623;}
+100% {color: #EF1111;}
+}
+
+@-o-keyframes rainbow {
+0% {color: #BD10E0;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
+80% {color: #F5A623;}
+100% {color: #EF1111;}
+}
+
+@keyframes rainbow {
+0% {color: #BD10E0;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
+80% {color: #F5A623;}
+100% {color: #EF1111;}
+}
+
+a:hover {
+  animation-play-state: paused;
+}
+
+.caption {
+  color: #666666;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+.fixed-border {
+  background: #ffffff;
+  position: fixed;
+  z-index: 1000;
+}
+
+.fixed-border.left, .fixed-border.right {
+  top: 0; 
+  bottom: 0;
+  width: 15px;
+}
+
+.fixed-border.left { 
+  left: 0; 
+}
+
+.fixed-border.right { 
+  right: 0; 
+}
+    
+.fixed-border.top, .fixed-border.bottom {
+  left: 0; 
+  right: 0;
+  height: 15px;
+}
+
+.fixed-border.top { 
+  top: 0; 
+}
+    
+.fixed-border.bottom { 
+  bottom: 0; 
+}
+
+.navitem {
+  width: 220px;
+  /*margin: auto;*/
+  display: block;
+  margin-bottom: 10px;
+}
+
+.nav-text {
+  padding: 5px;
+  color: #666666;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    bottom: 8px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.center {
+  margin: auto;
+  width: 700px;
+  display: inline-block;
+}
+
+.circle {
+  margin: auto;
+  background: #9013FE;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    opacity: 0.0;
+    cursor: pointer;
+}
+.navitem:nth-of-type(1) .circle {
+  -webkit-animation: pulsate 6s ease-out infinite;
+}
+.navitem:nth-of-type(2) .circle {
+  -webkit-animation: pulsate 6.1s ease-out infinite;
+}
+.navitem:nth-of-type(3) .circle {
+  -webkit-animation: pulsate 6.2s ease-out infinite;
+}
+
+.navitem:nth-of-type(4) .circle {
+  -webkit-animation: pulsate 6.3s ease-out infinite;
+}
+.navitem:nth-of-type(5) .circle {
+  -webkit-animation: pulsate 6.4s ease-out infinite;
+}
+.navitem:nth-of-type(6) .circle {
+  -webkit-animation: pulsate 6.5s ease-out infinite;
+}
+.navitem:nth-of-type(7) .circle {
+  -webkit-animation: pulsate 6.6s ease-out infinite;
+}
+
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.5, 0.5); opacity: 1.0;}
+    50% {-webkit-transform: scale(1.0, 1.0); opacity: 1.0;}
+    100% {-webkit-transform: scale(0.5, 0.5); opacity: 1.0;}
+}
+
+.navitem .circle:hover {
+  animation-play-state: paused;
+}
+
+.circle.circle-violet-open {
+  background: #BD10E0;
+}
+
+.circle.circle-violet {
+  background: #EEEEEE;
+  border-style: solid;
+  border-color: #BD10E0;
+}
+
+.circle.circle-indigo-open {
+  background: #9013FE;
+}
+
+.circle.circle-indigo {
+  background: #EEEEEE;
+  border-style: solid;
+  border-color: #9013FE;
+}
+
+.circle.circle-blue-open {
+  background: #4A90E2;
+}
+
+.circle.circle-blue {
+  background: #EEEEEE;
+  border-style: solid;
+  border-color: #4A90E2;
+}
+
+.circle.circle-green-open {
+  background: #7ED321;
+}
+
+.circle.circle-green {
+  background: #EEEEEE;
+  border-style: solid;
+  border-color: #7ED321;
+}
+
+.circle.circle-yellow-open {
+  background: #F8E71C;
+}
+
+.circle.circle-yellow {
+  background: #EEEEEE;
+  border-style: solid;
+  border-color: #F8E71C;
+}
+
+
+.circle.circle-orange-open {
+  background: #F5A623;
+}
+
+.circle.circle-orange {
+  background: #EEEEEE;
+  border-style: solid;
+  border-color: #F5A623;
+}
+
+.circle.circle-red-open {
+  background: #EF1111;
+}
+
+.circle.circle-red {
+  background: #EEEEEE;
+  border-style: solid;
+  border-color: #EF1111;
+}
+
+.content{
+  display: block;
+  width: 580px;
+  margin: auto;
+}
+
+#quote {
+  color: #666666;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin: auto;
+  display: block;
+  position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+#profile {
+  width: 150px;
+  margin: auto;
+    display: block;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+
+header {
+  width: 90%;
+  margin: auto;
+  font-size: 32px;
+  padding-bottom: 0px;
+}
+
+p {
+  display: inline-block;
+  position: relative;
+  width: 98%;
+}
+
+h3 {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+h4 {
+  display: inline-block;
+  position: relative;
+  width: 98%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  text-align: center;
+  width: 90%
+}
+
+nav {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+    left: 0%;
+    float: none;
+}
+
+img {
+  width: 98%;
+  margin: auto;
+}
+
+ul {
+  width: 98%;
+
+}
+
+.content{
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.navitem {
+    display: inline;
+    width: 100%;
+    }
+
+#quote {
+  display: none;
+}
+
+}
