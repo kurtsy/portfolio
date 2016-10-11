@@ -64,7 +64,7 @@ class Bonbite(webapp2.RequestHandler):
         self.response.out.write(template.render(values))
 
 
-class Sweat(webapp2.RequestHandler):
+class Instaprint(webapp2.RequestHandler):
     def get(self):
         values = {
           'debug': is_devserver()
@@ -80,5 +80,5 @@ app = webapp2.WSGIApplication([
 	('/alice', Alice),
 	('/poncho', Poncho),
 	('/bonbite', Bonbite),
-	('/sweat', Sweat),
+	('/instaprint', Instaprint),
 ],  debug=True)
