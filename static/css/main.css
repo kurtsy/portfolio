@@ -21,6 +21,31 @@ body {
   background: #EEEEEE;
 }
 
+footer {
+  color: #B8B8B8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  width: 160px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  bottom:0;
+  left: 30px;
+}
+
+#homepagefooter {
+  color: #B8B8B8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin: auto;
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
@@ -341,31 +366,31 @@ a:hover {
   -moz-animation-fill-mode:forwards;
   animation-fill-mode:forwards;
 
-  -webkit-animation-duration:1s;
-  -moz-animation-duration:1s;
-  animation-duration:1s;
+  -webkit-animation-duration:.5s;
+  -moz-animation-duration:.5s;
+  animation-duration:.5s;
 }
 
 .fade-in.one {
-  -webkit-animation-delay: 0.3s;
-  -moz-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .fade-in.two {
-  -webkit-animation-delay: 0.8s;
-  -moz-animation-delay:0.8s;
-  animation-delay: 0.8s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay:0.3s;
+  animation-delay: 0.3s;
 }
 
 .fade-in.three {
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 #quote {
-  color: #666666;
+  color: #B8B8B8;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: normal;
@@ -411,7 +436,7 @@ h4 {
   display: inline-block;
   position: relative;
   width: 98%;
-  margin-top: 15px;
+  margin-top: 8px;
   text-align: left;
 }
 
@@ -439,7 +464,30 @@ img {
 
 ul {
   width: 98%;
+}
 
+footer {
+  color: #B8B8B8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  width: 160px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  position: static;
+}
+
+#homepagefooter {
+  color: #B8B8B8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  width: 160px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  position: static;
 }
 
 .content{
