@@ -5,6 +5,7 @@ header {
   font-size: 54px;
   letter-spacing: 6px;
   font-stretch: condensed;
+  font-weight: bold;
   line-height: 34px;
   color: #666666;
   text-align: center;
@@ -464,7 +465,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: normal;
-  width: 160px;
+  width: 180px;
   margin: auto;
   margin-top: 80px;
   margin-bottom: 40px;
