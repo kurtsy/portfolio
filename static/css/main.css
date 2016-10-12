@@ -3,16 +3,13 @@
 header {
   font-family: "Futura-CondensedExtraBold", Futura, Arial, sans-serif;
   font-size: 54px;
-  font-style: normal;
-  font-variant: normal;
   letter-spacing: 6px;
   font-stretch: condensed;
-  font-weight: bold;
   line-height: 34px;
   color: #666666;
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   width: 585px;
   margin: auto;
 }
@@ -26,7 +23,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: normal;
-  width: 160px;
+  width: 165px;
   margin: auto;
   margin-top: 60px;
   margin-bottom: 20px;
@@ -35,10 +32,6 @@ footer {
 }
 
 #homepagefooter {
-  color: #B8B8B8;
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-  font-weight: normal;
   margin: auto;
   display: block;
   position: fixed;
@@ -56,7 +49,7 @@ h1 {
   width: 375px;
   text-align: left;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
