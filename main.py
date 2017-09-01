@@ -19,6 +19,14 @@ class About(webapp2.RequestHandler):
         self.response.out.write(template.render(values))
 
 
+class Advance(webapp2.RequestHandler):
+    def get(self):
+        values = {
+          'debug': is_devserver()
+        }
+        template = jinja_environment.get_template('templates/index1.html')
+        self.response.out.write(template.render(values))
+
 class Hearst(webapp2.RequestHandler):
     def get(self):
         values = {
@@ -75,6 +83,7 @@ class Instaprint(webapp2.RequestHandler):
 
 app = webapp2.WSGIApplication([
 	('/', About),
+    ('/advance', Advance),
 	('/hearst', Hearst),
 	('/buttr', Buttr),
 	('/alice', Alice),

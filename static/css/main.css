@@ -1,16 +1,16 @@
 /*Are you a Scorpio?*/
 
 header {
-  font-family: "Futura-CondensedExtraBold", Futura, Arial, sans-serif;
+  font-family: Futura, Arial, sans-serif;
   font-size: 54px;
-  letter-spacing: 6px;
-  font-stretch: condensed;
+ /* font-stretch: condensed;*/
   font-weight: bold;
   line-height: 34px;
-  color: #666666;
+  letter-spacing: 1px;
+  color: #4A4A4A;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  padding-top: 60px;
+  padding-bottom: 80px;
   width: 700px;
   margin: auto;
 }
@@ -24,7 +24,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: normal;
-  width: 165px;
+  width: 240px;
   margin: auto;
   margin-top: 60px;
   margin-bottom: 20px;
@@ -44,7 +44,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   letter-spacing: 5.2px;
-  color: #666666;
+  color: #4A4A4A;
   margin-top: 30px;
   font-weight: normal;
   width: 400px;
@@ -57,7 +57,7 @@ h1 {
 h3 {
   font-family: "Futura-CondensedExtraBold", Futura, Arial, sans-serif;
   font-size: 18px;
-  color: #666666;
+  color: #4A4A4A;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -65,25 +65,25 @@ h3 {
 h4 {
   font-family: "Futura-CondensedExtraBold", Futura, Arial, sans-serif;
   font-size: 16px;
-  color: #666666;
+  color: #4A4A4A;
   margin-top: 15px;
   margin-bottom: 5px;
 }
 
 p {
-  color: #666666;
+  color: #4A4A4A;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   display: block;
   position: relative;
   float: left;
   width: 580px;
   margin-top: 0;
-  line-height: 24px;
+  line-height: 30px;
 }
 
 ul {
-  color: #666666;
+  color: #4A4A4A;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   display: block;
@@ -112,10 +112,10 @@ a {
 }
 
 a {
--webkit-animation:rainbow 10s infinite;
--ms-animation:rainbow 10s infinite;
--o-animation:rainbow 10s infinite;
-animation:rainbow 10s infinite;
+-webkit-animation:rainbow 60s infinite;
+-ms-animation:rainbow 60s infinite;
+-o-animation:rainbow 60s infinite;
+animation:rainbow 60s infinite;
 }
 
 @-webkit-keyframes rainbow {
@@ -159,7 +159,7 @@ a:hover {
 }
 
 .caption {
-  color: #666666;
+  color: #4A4A4A;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   padding-bottom: 20px;
@@ -209,11 +209,13 @@ a:hover {
 
 .nav-text {
   padding: 5px;
-  color: #666666;
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    bottom: 8px;
+  color: #4A4A4A;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: Futura, Arial, sans-serif;
+  font-size: 16px;
+  bottom: 8px;
   display: inline-block;
   cursor: pointer;
 }
@@ -279,6 +281,11 @@ a:hover {
   border-color: #BD10E0;
 }
 
+.circle-violet + .nav-text, 
+.circle-violet-open + .nav-text{
+  color: #BD10E0;
+}
+
 .circle.circle-indigo-open {
   background: #9013FE;
 }
@@ -287,6 +294,11 @@ a:hover {
   background: #EEEEEE;
   border-style: solid;
   border-color: #9013FE;
+}
+
+.circle-indigo + .nav-text, 
+.circle-indigo-open + .nav-text{
+  color: #9013FE;
 }
 
 .circle.circle-blue-open {
@@ -299,6 +311,11 @@ a:hover {
   border-color: #4A90E2;
 }
 
+.circle-blue + .nav-text, 
+.circle-blue-open + .nav-text{
+  color: #4A90E2;
+}
+
 .circle.circle-green-open {
   background: #7ED321;
 }
@@ -307,6 +324,11 @@ a:hover {
   background: #EEEEEE;
   border-style: solid;
   border-color: #7ED321;
+}
+
+.circle-green + .nav-text, 
+.circle-green-open + .nav-text{
+  color: #7ED321;
 }
 
 .circle.circle-yellow-open {
@@ -319,6 +341,10 @@ a:hover {
   border-color: #F8E71C;
 }
 
+.circle-yellow + .nav-text, 
+.circle-yellow-open + .nav-text{
+  color: #FDE541;
+}
 
 .circle.circle-orange-open {
   background: #F5A623;
@@ -330,6 +356,11 @@ a:hover {
   border-color: #F5A623;
 }
 
+.circle-orange + .nav-text, 
+.circle-orange-open + .nav-text{
+  color: #F5A623;
+}
+
 .circle.circle-red-open {
   background: #EF1111;
 }
@@ -338,6 +369,11 @@ a:hover {
   background: #EEEEEE;
   border-style: solid;
   border-color: #EF1111;
+}
+
+.circle-red + .nav-text, 
+.circle-red-open + .nav-text{
+  color: #EF1111;
 }
 
 .content{
@@ -360,12 +396,12 @@ a:hover {
   -moz-animation-fill-mode:forwards;
   animation-fill-mode:forwards;
 
-  -webkit-animation-duration:.5s;
-  -moz-animation-duration:.5s;
-  animation-duration:.5s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
-.fade-in.one {
+/*.fade-in.one {
   -webkit-animation-delay: 0.2s;
   -moz-animation-delay: 0.2s;
   animation-delay: 0.2s;
@@ -382,7 +418,7 @@ a:hover {
   -moz-animation-delay: 0.6s;
   animation-delay: 0.6s;
 }
-
+*/
 #quote {
   color: #B8B8B8;
   font-family: 'Roboto', sans-serif;
@@ -465,7 +501,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: normal;
-  width: 180px;
+  width: 240px;
   margin: auto;
   margin-top: 80px;
   margin-bottom: 40px;
@@ -477,7 +513,7 @@ footer {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: normal;
-  width: 160px;
+  width: 240px;
   margin: auto;
   margin-top: 80px;
   margin-bottom: 40px;
