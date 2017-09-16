@@ -10,7 +10,7 @@ header {
   color: #4A4A4A;
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   width: 700px;
   margin: auto;
 }
@@ -108,14 +108,23 @@ img {
 }
 
 a {
+  color: #4A4A4A;
+ /* text-decoration: none;*/
+}
+
+nav a { 
+  text-decoration: none;
+  }
+
+header a {
   text-decoration: none;
 }
 
-a {
--webkit-animation:rainbow 60s infinite;
--ms-animation:rainbow 60s infinite;
--o-animation:rainbow 60s infinite;
-animation:rainbow 60s infinite;
+a:hover {
+-webkit-animation:rainbow 5s infinite;
+-ms-animation:rainbow 5s infinite;
+-o-animation:rainbow 5s infinite;
+animation:rainbow 5s infinite;
 }
 
 @-webkit-keyframes rainbow {
@@ -154,9 +163,9 @@ animation:rainbow 60s infinite;
 100% {color: #EF1111;}
 }
 
-a:hover {
+/*a:hover {
   animation-play-state: paused;
-}
+}*/
 
 .caption {
   color: #4A4A4A;
@@ -167,9 +176,10 @@ a:hover {
 }
 
 .fixed-border {
-  background: #ffffff;
+  background: #4A4A4A;
   position: fixed;
   z-index: 1000;
+  opacity: 0.5;
 }
 
 .fixed-border.left, .fixed-border.right {
@@ -439,7 +449,11 @@ a:hover {
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 900px) {
+#intro-page {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 970px) {
 
 header {
   width: 90%;
@@ -480,8 +494,9 @@ h1 {
 
 nav {
     position: relative;
-    width: 70%;
+    width: 220px;
     margin: auto;
+    padding-top: 20px;
     padding-bottom: 20px;
     left: 0%;
     float: none;
@@ -530,6 +545,10 @@ footer {
     display: inline;
     width: 100%;
     }
+
+.nav-text {
+  display: none;
+}
 
 #quote {
   display: none;
