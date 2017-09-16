@@ -211,7 +211,7 @@ a:hover {
   padding: 5px;
   color: #4A4A4A;
   position: relative;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 1px;
   font-family: Futura, Arial, sans-serif;
   font-size: 16px;
