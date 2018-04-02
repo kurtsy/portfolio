@@ -66,6 +66,7 @@ nav a {
   }
 
 a:hover {
+text-decoration: none;
 -webkit-animation:rainbow 5s infinite;
 -ms-animation:rainbow 5s infinite;
 -o-animation:rainbow 5s infinite;
@@ -74,36 +75,40 @@ animation:rainbow 5s infinite;
 
 @-webkit-keyframes rainbow {
 0% {color: #BD10E0;}
-20% {color: #9013FE;}
-40% {color: #4A90E2;}
-60% {color: #7ED321;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
 80% {color: #F5A623;}
 100% {color: #EF1111;}
 }
 
 @-ms-keyframes rainbow {
 0% {color: #BD10E0;}
-20% {color: #9013FE;}
-40% {color: #4A90E2;}
-60% {color: #7ED321;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
 80% {color: #F5A623;}
 100% {color: #EF1111;}
 }
 
 @-o-keyframes rainbow {
 0% {color: #BD10E0;}
-20% {color: #9013FE;}
-40% {color: #4A90E2;}
-60% {color: #7ED321;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
 80% {color: #F5A623;}
 100% {color: #EF1111;}
 }
 
 @keyframes rainbow {
 0% {color: #BD10E0;}
-20% {color: #9013FE;}
-40% {color: #4A90E2;}
-60% {color: #7ED321;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
 80% {color: #F5A623;}
 100% {color: #EF1111;}
 }
@@ -264,8 +269,12 @@ animation:rainbow 5s infinite;
     100% {-webkit-transform: scale(0.5, 0.5); opacity: 1.0;}
 }
 
-.navitem .circle:hover {
+/*.navitem .circle:hover {
   animation-play-state: paused;
+}*/
+
+.navitem .circle.circle-violet:hover {
+  background: #BD10E0;
 }
 
 .circle.circle-violet-open {
@@ -283,6 +292,10 @@ animation:rainbow 5s infinite;
   text-decoration: underline;
 }
 
+.navitem .circle.circle-indigo:hover {
+  background: #9013FE;
+}
+
 .circle.circle-indigo-open {
   background: #9013FE;
 }
@@ -296,6 +309,10 @@ animation:rainbow 5s infinite;
 .nav-text-indigo{
   color: #9013FE;
   text-decoration: underline;
+}
+
+.navitem .circle.circle-blue:hover {
+  background: #4A90E2;
 }
 
 .circle.circle-blue-open {
@@ -313,6 +330,10 @@ animation:rainbow 5s infinite;
   text-decoration: underline;
 }
 
+.navitem .circle.circle-green:hover {
+  background: #7ED321;
+}
+
 .circle.circle-green-open {
   background: #7ED321;
 }
@@ -326,6 +347,10 @@ animation:rainbow 5s infinite;
 .nav-text-green{
   color: #7ED321;
   text-decoration: underline;
+}
+
+.navitem .circle.circle-yellow:hover {
+  background: #F8E71C;
 }
 
 .circle.circle-yellow-open {
@@ -343,6 +368,10 @@ animation:rainbow 5s infinite;
   text-decoration: underline;
 }
 
+.navitem .circle.circle-orange:hover {
+  background: #F5A623;
+}
+
 .circle.circle-orange-open {
   background: #F5A623;
 }
@@ -356,6 +385,10 @@ animation:rainbow 5s infinite;
 .nav-text-orange{
   color: #F5A623;
   text-decoration: underline;
+}
+
+.navitem .circle.circle-red:hover {
+  background: #EF1111;
 }
 
 .circle.circle-red-open {
@@ -444,6 +477,54 @@ padding-bottom: 20px;
   left: 35px;
   padding-top: 10px;
   line-height: 14px;
+}
+
+.activelink {
+text-decoration: none;
+-webkit-animation:rainbow 8s infinite;
+-ms-animation:rainbow 8s infinite;
+-o-animation:rainbow 8s infinite;
+animation:rainbow 8s infinite;
+}
+
+@-webkit-keyframes rainbow {
+0% {color: #BD10E0;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
+80% {color: #F5A623;}
+100% {color: #EF1111;}
+}
+
+@-ms-keyframes rainbow {
+0% {color: #BD10E0;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
+80% {color: #F5A623;}
+100% {color: #EF1111;}
+}
+
+@-o-keyframes rainbow {
+0% {color: #BD10E0;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
+80% {color: #F5A623;}
+100% {color: #EF1111;}
+}
+
+@keyframes rainbow {
+0% {color: #BD10E0;}
+16% {color: #9013FE;}
+32% {color: #4A90E2;}
+48% {color: #7ED321;}
+64% {color: #F8E71C;}
+80% {color: #F5A623;}
+100% {color: #EF1111;}
 }
 
 
