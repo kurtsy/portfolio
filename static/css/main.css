@@ -49,7 +49,7 @@ nav {
   padding-top: 16%;
   margin: auto;
   margin-top: 8%;
-  width: 240px;
+  width: 110px;
 }
 
 img {
@@ -58,7 +58,7 @@ img {
 
 a {
   color: #CCCCCC;
- /* text-decoration: none;*/
+/*  text-decoration: none;*/
 }
 
 nav a { 
@@ -109,7 +109,7 @@ animation:rainbow 5s infinite;
 }
 
 .navitem {
-  width: 240px;
+  width: 110px;
   /*margin: auto;*/
   display: block;
   margin-bottom: 10px;
@@ -134,7 +134,7 @@ animation:rainbow 5s infinite;
   right: 8%;
   margin: auto;
   float: left;
-  width: 220px;
+  width: 110px;
 }
 
 .logo {
@@ -202,7 +202,7 @@ animation:rainbow 5s infinite;
 }
 
 .navitem {
-  width: 100px;
+  width: 110px;
   margin: auto;
   display: block;
   margin-bottom: 10px;
@@ -278,9 +278,9 @@ animation:rainbow 5s infinite;
   border-color: #BD10E0;
 }
 
-.circle-violet + .nav-text, 
-.circle-violet-open + .nav-text{
+.nav-text-violet{
   color: #BD10E0;
+  text-decoration: underline;
 }
 
 .circle.circle-indigo-open {
@@ -293,9 +293,9 @@ animation:rainbow 5s infinite;
   border-color: #9013FE;
 }
 
-.circle-indigo + .nav-text, 
-.circle-indigo-open + .nav-text{
+.nav-text-indigo{
   color: #9013FE;
+  text-decoration: underline;
 }
 
 .circle.circle-blue-open {
@@ -308,9 +308,9 @@ animation:rainbow 5s infinite;
   border-color: #4A90E2;
 }
 
-.circle-blue + .nav-text, 
-.circle-blue-open + .nav-text{
+.nav-text-blue {
   color: #4A90E2;
+  text-decoration: underline;
 }
 
 .circle.circle-green-open {
@@ -323,9 +323,9 @@ animation:rainbow 5s infinite;
   border-color: #7ED321;
 }
 
-.circle-green + .nav-text, 
-.circle-green-open + .nav-text{
+.nav-text-green{
   color: #7ED321;
+  text-decoration: underline;
 }
 
 .circle.circle-yellow-open {
@@ -338,9 +338,9 @@ animation:rainbow 5s infinite;
   border-color: #F8E71C;
 }
 
-.circle-yellow + .nav-text, 
-.circle-yellow-open + .nav-text{
+.nav-text-yellow{
   color: #FDE541;
+  text-decoration: underline;
 }
 
 .circle.circle-orange-open {
@@ -353,9 +353,9 @@ animation:rainbow 5s infinite;
   border-color: #F5A623;
 }
 
-.circle-orange + .nav-text, 
-.circle-orange-open + .nav-text{
+.nav-text-orange{
   color: #F5A623;
+  text-decoration: underline;
 }
 
 .circle.circle-red-open {
@@ -368,9 +368,9 @@ animation:rainbow 5s infinite;
   border-color: #EF1111;
 }
 
-.circle-red + .nav-text, 
-.circle-red-open + .nav-text{
+.nav-text-red {
   color: #EF1111;
+  text-decoration: underline;
 }
 
 .content{
@@ -520,7 +520,7 @@ h1 {
     margin: auto;
     background: #222222;
     float: none;
-        padding-top: 2%;
+    padding-top: 2%;
     padding-bottom: 2%;
 }
 
@@ -629,7 +629,7 @@ footer {
 
 .navitem {
     display: inline;
-    width: 92%;
+    width: 110px;
     margin-left: 10px;
     }
 
