@@ -140,9 +140,9 @@ animation:rainbow 4s infinite;
 }
 
 .logo {
-  width: 76px;
-  padding-right: 16px;
-  padding-top: 6px;
+  width: 300px;
+/*  padding-right: 16px;
+  padding-top: 6px;*/
 }
 
 .icon {
@@ -671,13 +671,13 @@ footer {
   margin: auto;
 }
 
-.logo {
+/*.logo {
   width: 110px;
   padding-right: 8px;
   padding-left: 8px;
   padding-top: 6px;
   display: inline-block;
-}
+}*/
 
 .icon {
   width: 30px;
