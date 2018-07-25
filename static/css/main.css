@@ -594,7 +594,7 @@ h1 {
     padding-bottom: 2%;
 }
 
-#homebutton {
+/*#homebutton {
   color: #B8B8B8;
   font-family: 'Lobster', cursive;
   font-size: 22px;
@@ -609,7 +609,7 @@ h1 {
   left: 10px;
   z-index: 100;
   opacity: 0.8;
-}
+}*/
 
 nav {
   color: #B8B8B8;
@@ -671,10 +671,10 @@ footer {
 }
 
 #intro-page{
-  display: block;
+/*  display: block;*/
   width: 84%;
-  position: static;
-  margin: auto;
+/*  position: static;*/
+/*  margin: auto;*/
 }
 
 /*.logo {
