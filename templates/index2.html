@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
-	<head>
+<html lang="en">
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kurt's Portfolio</title>
-        <link type="text/css" rel="stylesheet" href="static/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="static/css/main.css">
         <script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -15,47 +17,53 @@
               ga('create', 'UA-79197915-1', 'auto');
               ga('send', 'pageview');
         </script>
-        <!--So, I have to ask. What's your sign?-->
-	</head>
-	<body>
-		<div class="fixed-border left"></div>
-		<div class="fixed-border right"></div>
-		<div class="fixed-border top"></div>
-		<div class="fixed-border bottom"></div>
-		<header><a href="/">KURT DURAN YALCIN</a></header>
-		<nav>
-			<a class="navitem" href="/advance">
-				<div class="circle circle-violet"></div>
-				<span class="nav-text">advance</span>
-			</a>
-			<a class="navitem" href="/hearst">
-				<div class="circle circle-indigo-open"></div>
-				<span class="nav-text">hearst</span>
-			</a>
-			<a class="navitem" href="/buttr">
-				<div class="circle circle-blue"></div>
-				<span class="nav-text">buttr</span>
-			</a>
-			<a class="navitem" href="/alice">
-				<div class="circle circle-green"></div>
-				<span class="nav-text">alice</span>
-			</a>
-			<a class="navitem" href="/poncho">
-				<div class="circle circle-yellow"></div>
-				<span class="nav-text">poncho</span>
-			</a>
-			<a class="navitem" href="/bonbite">
-				<div class="circle circle-orange"></div>
-				<span class="nav-text">bonbite</span>
-			</a>
-			<a class="navitem" href="/instaprint">
-				<div class="circle circle-red"></div>
-				<span class="nav-text">other</span>
-			</a>
-		</nav>
-		<div class="content">
+    </head>
+    <body>
+        <div class="fixed-border left"></div>
+        <div class="fixed-border right"></div>
+        <div class="fixed-border top"></div>
+        <div class="fixed-border bottom"></div>
+
+            <h1><a href="/">kurt yalcin</a> &middot; <a href="/about">about</a> &middot; <a href="/work" class="activelink">work</a></h1>
+
+                    <nav class="casestudy" id="chakras-left">
+            <a class="navitem" href="/advance">
+                <div class="circle circle-violet"></div>
+                <span class="nav-text nav-text-violet">intrepid</span>
+            </a>
+            <a class="navitem" href="/hearst">
+                <div class="circle circle-indigo-open"></div>
+                <span class="nav-text nav-text-indigo">hearst</span>
+            </a>
+            <a class="navitem" href="/buttr">
+                <div class="circle circle-blue"></div>
+                <span class="nav-text nav-text-blue">buttr</span>
+            </a>
+            <a class="navitem" href="/alice">
+                <div class="circle circle-green"></div>
+                <span class="nav-text nav-text-green">alice</span>
+            </a>
+            <a class="navitem" href="/poncho">
+                <div class="circle circle-yellow"></div>
+                <span class="nav-text nav-text-yellow">poncho</span>
+            </a>
+            <a class="navitem" href="/bonbite">
+                <div class="circle circle-orange"></div>
+                <span class="nav-text nav-text-orange">bonbite</span>
+            </a>
+            <a class="navitem" href="/instaprint">
+                <div class="circle circle-red"></div>
+                <span class="nav-text nav-text-red">other</span>
+            </a>
+        </nav>
+
+        <div id="intro-page">
+        <h2>context is queen</h2>   
+        </div>
+
+            <div class="content">
+            <h3>HEARST NEWSPAPERS</h3>
 			<img src="static/img/hearstnewspapers.jpg" alt="hearst app">
-			<h3>HEARST NEWSPAPERS</h3>
 			<p>As the UX Architect at Hearst Newspapers, I was responsible for translating reader needs, business objectives, and technology capabilities into the navigation, organization, and interaction design specifications for the reading experiences on all the local Hearst newspaper properties. Below is an example of my design process with the <a href="https://itunes.apple.com/us/app/san-francisco-chronicle/id423260205?mt=8" target="_blank">San Francisco Chronicle app</a> as the model.</p>
 			<h4>Phase 1: Research</h4>
 			<p>Instead of waiting for inspiration to strike, I prefer to dive into data to prioritize the most crucial features and identify opportunities for improvement. Through a comprehensive survey of iPad readers in four markets, I aggregated the overall sentiment of users and determined the "low-hanging fruit" in making a better experience for readers. A competitive analysis and heuristic evaluation helped turn data into tangible designs.</p>
@@ -72,7 +80,6 @@
 			<h4>Phase 5: Implement</h4>
 			<p>The new app was released in the fall of 2015. Since the launch, the team as been actively iterating to address user feedback.</p>
 		</div>
-		<h6 id="quote">put people first and foremost.</h6>
+<!-- <script src="../static/js/main.js"></script> -->
 	</body>
-	<footer>Designed and coded by me &hearts;</footer>
 </html>
