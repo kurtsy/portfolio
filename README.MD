@@ -12,6 +12,10 @@ App will be running at localhost:8080.
 In your terminal in the root of the directory:
 
 ```
+open new tab in terminal
+
 cd ~/Documents/6_CODE/kurt-duran-yalcin/
 appcfg.py update app.yaml 
 ```
+
+troubleshoot = ctrl + C 
