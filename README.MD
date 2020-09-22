@@ -15,7 +15,7 @@ In your terminal in the root of the directory:
 open new tab in terminal
 
 cd ~/Documents/6_CODE/kurt-duran-yalcin/
-appcfg.py update app.yaml 
+gcloud app deploy
 ```
 
 troubleshoot = ctrl + C 
