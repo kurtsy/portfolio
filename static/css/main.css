@@ -1,10 +1,10 @@
 html {
-  cursor: url(/static/img/cursor.png), pointer;
+/*  cursor: url(/static/img/cursor.png), pointer;*/
 }
 
 body {
   background: #222222;
-  cursor: url(/static/img/cursor.png), pointer;
+/*  cursor: url(/static/img/cursor.png), pointer;*/
 }
 
 h1 {
@@ -73,11 +73,20 @@ nav {
 
 img {
   width: 580px;
+  position: relative;
+  transition:transform 0.25s ease;
+   z-index: 1000;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+    z-index: 1000;
 }
 
 a {
   color: #CCCCCC;
-  cursor: url(/static/img/cursoractive.png), pointer;
+/*  cursor: url(/static/img/cursoractive.png), pointer;*/
 }
 
 nav a { 
